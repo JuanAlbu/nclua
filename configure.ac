@@ -61,6 +61,7 @@ m4_define([gtk_required_version], [3.4.2])
 m4_define([lua_required_version], [5.2])
 m4_define([pango_required_version], [1.30.0])
 m4_define([soup_required_version], [2.42])
+m4_define([curl_required_version], [7.47.0])
 AC_SUBST([CAIRO_REQUIRED_VERSION], cairo_required_version)
 AC_SUBST([GLIB_REQUIRED_VERSION], glib_required_version)
 AC_SUBST([GSTREAMER_REQUIRED_VERSION], gstreamer_required_version)
@@ -68,6 +69,8 @@ AC_SUBST([GTK_REQUIRED_VERSION], gtk_required_version)
 AC_SUBST([LUA_REQUIRED_VERSION], lua_required_version)
 AC_SUBST([PANGO_REQUIRED_VERSION], pango_required_version)
 AC_SUBST([SOUP_REQUIRED_VERSION], soup_required_version)
+AC_SUBST([CURL_REQUIRED_VERSION], curl_required_version)
+
 
 # Tool checks.
 AU_PROG_CC_VISIBILITY

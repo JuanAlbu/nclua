@@ -110,6 +110,7 @@ scripts+= test-canvas-clear.lua
 scripts+= test-canvas-compose.lua
 scripts+= test-canvas-drawEllipse.lua
 scripts+= test-canvas-drawLine.lua
+scripts+= test-bitwise.lua
 scripts+= test-canvas-drawPolygon.lua
 scripts+= test-canvas-drawRect.lua
 scripts+= test-canvas-drawRoundRect.lua

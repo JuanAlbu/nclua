@@ -45,6 +45,7 @@ EXTRA_DIST+=\
   build-aux/gitlog-to-changelog\
   build-aux/manywarnings.m4\
   build-aux/perl.m4\
+  build-aux/curl.m4\
   build-aux/syntax-check-copyright\
   build-aux/syntax-check\
   build-aux/useless-if-before-free\
